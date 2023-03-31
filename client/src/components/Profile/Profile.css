@@ -6,7 +6,7 @@
 /* --------------------------------- */
 
 .profile_col_1{
-    background-color: rgba(172, 223, 235, 0.671);
+    /* background-color: rgba(172, 223, 235, 0.671); */
     width: 20%;
     padding: 1rem;
 }
@@ -54,7 +54,7 @@
 
 /* --------------------------------- */
 .profile_col_2{
-    background-color: rgba(249, 179, 179, 0.844);
+    /* background-color: rgba(249, 179, 179, 0.844); */
     flex-grow: 1;
 
 }
@@ -158,8 +158,12 @@
     border: none;
     padding: 0.5rem .8rem;
 }
-.contact_box .contact_box_action_grp:nth-child(4) button:nth-child(1){
+.contact_box .contact_box_action_grp:nth-child(4) a:nth-child(1){
     background-color: #6f6f6f;
+    color: white;
+    border: none;
+    padding: 0.5rem .8rem;
+
 }
 .contact_box .contact_box_action_grp:nth-child(4) button:nth-child(2){
     background-color: indianred;
